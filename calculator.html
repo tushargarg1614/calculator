@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <div class="heading"><h1>my calculator</h1></div>
+    <div class="container">
+        <table>
+            <tr>
+                <th colspan="4">
+                    <input placeholder="0000" type="text" 
+                   id="output" class="output" >
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input class="btn" type="button" onclick="input('+')"value="+">
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="input('-')" value="-" >
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="input('*')" value="X" >
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="input('/')" value="/" >
+                </th>
+                
+            </tr>
+            <tr>
+                <th>
+                    <input  class="btn"type="button"  onclick="input('7')"value="7" >
+                </th>
+                <th>
+                    <input  class="btn"type="button" onclick="input('8')" value="8" >
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="input('9')" value="9" >
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="input('(')" value="(" >
+                </th>
+                
+            </tr>
+            <tr>
+                <th>
+                    <input  class="btn"type="button" onclick="input('4')" value="4" >
+                </th>
+                <th>
+                    <input  class="btn"type="button" onclick="input('5')" value="5" >
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="input('6')" value="6" >
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="input(')')" value=")" >
+                </th>
+                
+            </tr>
+            <tr>
+                <th>
+                    <input class="btn" type="button" onclick="input('1')" value="1" >
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="input('2')" value="2" >
+                </th>
+                <th>
+                    <input class="btn" type="button" id="btn" onclick="input('3')"value="3" >
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="backspace()" value="<---" >
+                </th>
+                
+            </tr>
+            <tr>
+                <th>
+                    <input class="btn" type="button" onclick="input('.')" onclick="" value="." >
+                </th>
+                <th>
+                    <input  class="btn"type="button" onclick="input('0')" value="0" >
+                </th>
+                <th>
+                    <input class="btn" type="button" onclick="clearIt()" value="C" >
+                </th>
+                <th>
+                    <input class="btn" type="button"onclick="solveIt()"on value="=" >
+                </th>
+                
+            </tr>
+        </table>
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+</html>

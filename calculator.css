@@ -1,0 +1,43 @@
+body{
+    justify-content: center;
+    background-color:blueviolet;
+}
+
+.container{
+    background-color:black;
+    width:300px;
+    height:300px;
+    margin:auto;
+    background-color:black;
+
+}
+table{
+    width:100%;
+    
+}
+
+.output{
+    width:97%;
+    height:50px;
+    background-color:aquamarine;
+    font-size: 25px;
+}
+.btn{
+    width:65px;
+    height:40px;
+    margin:auto;
+    background-color:black;
+    color:white;
+}
+.btn:hover{
+    
+    width:60px;
+    height:35px;
+}
+.heading{
+    color:blanchedalmond;
+    font-family: fantasy;
+    font-size: 30px;
+    height:100px;
+    margin:auto;
+}
